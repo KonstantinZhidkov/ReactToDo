@@ -8,9 +8,9 @@ import ToDoSearchBar from './components/ToDoSearchBar';
 const App = () => {
 
     const todoData = [
-        {label: 'Drink coffee', important: false},
-        {label: 'Create React App', important: true},
-        {label: 'Have a lunch', important: false}
+        {label: 'Drink coffee', important: false, id: 'dc'},
+        {label: 'Create React App', important: true, id: 'cra'},
+        {label: 'Have a lunch', important: false, id: 'hl'}
     ];
 
     return (
