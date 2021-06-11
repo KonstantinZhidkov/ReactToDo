@@ -1,10 +1,12 @@
 import React from 'react';
 
+import './ToDoSearchBar.css';
+
 const ToDoSearchBar = () => {
-    const searchBarText = 'Type here something to seearch';
+    const searchBarText = 'Type here to search';
 
     return (
-        <input placeholder={searchBarText}/>
+        <input className="todo-search-input" placeholder={searchBarText}/>
     );
 };
 

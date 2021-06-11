@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import './index.css';
+
 import ToDoHeader from './components/ToDoHeader';
 import ToDoList from './components/ToDoList';
 import ToDoSearchBar from './components/ToDoSearchBar';
+import ItemStatusFilter from './components/ItemStatusFilter';
 
 const App = () => {
 
@@ -14,10 +17,17 @@ const App = () => {
     ];
 
     return (
-        <div>
-            <ToDoHeader />
-            <ToDoSearchBar />
+        <div className="todo-app">
+
+            <ToDoHeader toDo={1} done={3}/>
+
+            <div className="top-panel">
+                <ToDoSearchBar />
+                <ItemStatusFilter />
+            </div>
+
             <ToDoList todos={todoData}/>
+
         </div>
     );
 };
