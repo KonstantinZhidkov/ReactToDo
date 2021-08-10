@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 
 import './index.css';
 
-import ToDoHeader from './components/ToDoHeader';
-import ToDoList from './components/ToDoList';
-import ToDoSearchBar from './components/ToDoSearchBar';
-import ItemStatusFilter from './components/ItemStatusFilter';
+import ToDoHeader from './components/ToDoHeader/ToDoHeader';
+import ToDoList from './components/ToDoList/ToDoList';
+import ToDoSearchBar from './components/ToDoSearchBar/ToDoSearchBar';
+import ItemStatusFilter from './components/ItemStatusFilter/ItemStatusFilter';
 
 const App = () => {
 
