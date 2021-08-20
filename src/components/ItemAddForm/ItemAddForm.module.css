@@ -1,0 +1,11 @@
+.itemAddForm {
+    margin-top: 10px;
+}
+
+.itemAddForm__input {
+    padding: 5px;
+}
+
+.itemAddForm__button {
+    margin-right: 5px;
+}

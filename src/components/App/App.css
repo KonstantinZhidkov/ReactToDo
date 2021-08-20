@@ -1,0 +1,10 @@
+.todoApp {
+    margin: 2rem auto 0 auto;
+    max-width: 400px;
+}
+
+.topPanel {
+    display: flex;
+    justify-content:space-between;
+    margin: 1rem 0;
+}
